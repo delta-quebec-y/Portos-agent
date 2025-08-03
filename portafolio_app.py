@@ -19,7 +19,7 @@ tickers_input = st.text_input("Tickers separados por coma (ej. AAPL, MSFT, GOOGL
 weights_input = st.text_input("Proporciones separadas por coma (ej. 0.5, 0.5)", "0.5, 0.5")
 
 # API Key de Alpha Vantage
-api_key = st.text_input("🔑 Ingresa tu API Key de Alpha Vantage", type="password")
+api_key = st.text_input("7X6HUVMM2HPLLXXY", type="password")
 
 # Función para obtener precios históricos
 @st.cache_data
